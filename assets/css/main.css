@@ -3327,3 +3327,18 @@ input, select, textarea {
 			}
 
 		}
+
+		/* === CUSTOM COLORS === */
+body {
+	background-color: #1a1a1a; /* gris oscuro */
+	color: #ffd700; /* amarillo */
+}
+
+a, a:visited {
+	color: #ffffff; /* blanco para links */
+	text-decoration: none;
+}
+
+a:hover {
+	color: #ffcc00; /* opcional: amarillo claro al pasar el ratón */
+}
