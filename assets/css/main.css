@@ -146,7 +146,7 @@ input, select, textarea {
 		transition: border-bottom-color 0.2s ease, color 0.2s ease;
 		text-decoration: none;
 		color: rgb(236, 236, 236);
-		border-bottom: dotted 1px rgb(236, 236, 236);
+		border-bottom: dotted 2px rgb(255, 255, 255);
 	}
 
 		a:hover {
