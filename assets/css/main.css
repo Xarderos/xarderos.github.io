@@ -146,12 +146,12 @@ input, select, textarea {
 		transition: border-bottom-color 0.2s ease, color 0.2s ease;
 		text-decoration: none;
 		color: rgb(236, 236, 236);
-		border-bottom: dotted 50px rgb(255, 255, 255);
+		border-bottom: dotted 500px rgb(255, 255, 255);
 	}
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #ffd900d7 !important;
+			color: #ffd900a4 !important;
 		}
 
 	strong, b {
