@@ -2485,6 +2485,13 @@ input[type="radio"]+label:before {
 	width: 100%;
 }
 
+img.hover-zoom {
+	transition: transform 0.3s ease;
+}
+
+img.hover-zoom:hover {
+	transform: scale(1.05);
+}
 @media screen and (max-width: 736px) {
 
 	.image.main {
