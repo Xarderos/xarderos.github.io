@@ -2492,6 +2492,7 @@ img.hover-zoom {
 img.hover-zoom:hover {
 	transform: scale(1.2);
 }
+
 @media screen and (max-width: 736px) {
 
 	.image.main {
