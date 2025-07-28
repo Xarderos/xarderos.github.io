@@ -2814,7 +2814,7 @@ button:disabled,
 }
 
 .tiles article>a:hover {
-	color: #ffffff !important;
+	color: #ffff00 !important;
 }
 
 .tiles article>a h2 {
@@ -2838,27 +2838,27 @@ button:disabled,
 }
 
 .tiles article.style1>.image:before {
-	background-color: #dd6d87;
+	background-color: #be6076;
 }
 
 .tiles article.style2>.image:before {
-	background-color: #7ecaf6;
+	background-color: #649fc2;
 }
 
 .tiles article.style3>.image:before {
-	background-color: #7bd0c1;
+	background-color: #67ada1;
 }
 
 .tiles article.style4>.image:before {
-	background-color: #c75b9b;
+	background-color: #aa4f86;
 }
 
 .tiles article.style5>.image:before {
-	background-color: #ae85ca;
+	background-color: #8e6da3;
 }
 
 .tiles article.style6>.image:before {
-	background-color: #8499e7;
+	background-color: #6271a7;
 }
 
 body:not(.is-touch) .tiles article:hover>.image {
