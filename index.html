@@ -78,7 +78,7 @@
 						<a href="spiral.html">
 							<h2>Spiral</h2>
 							<div class="content">
-								<p>Psychological "roguelike" about the gambling addiction.</p>
+								<p><b>Psychological "roguelike" about the gambling addiction.</b></p>
 							</div>
 						</a>
 					</article>
@@ -193,37 +193,48 @@
 						</a>
 					</article>
 				</section>
+				<hr />
+
+				<section style="display: flex; flex-direction: column; align-items: center; margin-top: 6rem;">
+					<h1><a href="aboutme.html" class="text-link" target="_blank">About Me</a></h1>
+				</section>
+				<hr />
+				<section id="contact">
+					<div class="inner">
+						<section style="display: flex; flex-direction: column; align-items: center; margin-top: 4rem;">
+							<h3>Feel free to contact me:</h3>
+							<p id="email" style="margin-bottom: 1rem;"><b>xavipratsparedes02@gmail.com</b></p>
+							<a href="#" onclick="copyEmail(); return false;" class="button primary small">Copy Email</a>
+						</section>
+						<script>
+							function copyEmail() {
+								const email = document.getElementById("email").textContent;
+								navigator.clipboard.writeText(email);
+							}
+						</script>
+						</script>
+
+						<section style="display: flex; flex-direction: column; align-items: center; margin-top: 4rem;">
+							<h3>And to check out my work in my social profiles:</h3>
+							<ul class="icons">
+								<li><a href="https://www.linkedin.com/in/xavier-prats-paredes" target="_blank"
+										class="icon brands style2 fa-linkedin"><span class="label">LinkdedIn</span></a>
+								</li>
+								<li><a href="https://xarderos.itch.io" target="_blank"
+										class="icon brands style2 fa-itch-io"><span class="label">itch.io</span></a>
+								</li>
+								<li><a href="https://github.com/Xarderos" target="_blank"
+										class="icon brands style2 fa-github"><span class="label">GitHub</span></a></li>
+							</ul>
+						</section>
+					</div>
+				</section>
+				<hr />
+
 			</div>
 		</div>
 
-		<!-- Footer -->
-		<footer id="contact">
-			<div class="inner">
-				<section style="display: flex; flex-direction: column; align-items: center; margin-top: 2rem;">
-					<h3>Feel free to contact me:</h3>
-					<p id="email" style="margin-bottom: 1rem;"><b>xavipratsparedes02@gmail.com</b></p>
-					<a href="#" onclick="copyEmail(); return false;" class="button primary small">Copy Email</a>
-				</section>
-				<script>
-					function copyEmail() {
-						const email = document.getElementById("email").textContent;
-						navigator.clipboard.writeText(email);
-					}
-				</script>
-				</script>
 
-				<section style="display: flex; flex-direction: column; align-items: center; margin-top: 2rem;">
-					<h4>And to check out my work in my social profiles:</h4>
-					<ul class="icons">
-						<li><a href="https://www.linkedin.com/in/xavier-prats-paredes" target = "_blank" class="icon brands style2 fa-linkedin"><span class="label">LinkdedIn</span></a>
-						</li>
-						<li><a href="https://xarderos.itch.io" target = "_blank" class="icon brands style2 fa-itch-io"><span class="label">itch.io</span></a>
-						</li>
-						<li><a href="https://github.com/Xarderos" target = "_blank" class="icon brands style2 fa-github"><span class="label">GitHub</span></a></li>
-					</ul>
-				</section>
-			</div>
-		</footer>
 
 	</div>
 
