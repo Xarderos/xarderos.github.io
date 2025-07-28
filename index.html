@@ -199,10 +199,24 @@
 		<!-- Footer -->
 		<footer id="contact">
 			<div class="inner">
-				<section>
-					<h2>Feel free to ontact me:</h2>
-					<p>xavipratsparedes02@gmail.com</p>
+				<section style="display: flex; flex-direction: column; align-items: center; margin-top: 2rem;">
+					<h2>Feel free to contact me:</h2>
+					<p id="email" style="margin-bottom: 1rem;">xavipratsparedes02@gmail.com</p>
+					<a href="#" onclick="copyEmail(); return false;" class="button primary">Copy Email To Clipboard</a>
+					<p id="copy-msg" style="color: green; margin-top: 1rem; display: none;">Copied!</p>
 				</section>
+
+				<script>
+					function copyEmail() {
+						const email = document.getElementById("email").textContent;
+						navigator.clipboard.writeText(email).then(() => {
+							const msg = document.getElementById("copy-msg");
+							msg.style.display = "block";
+							setTimeout(() => msg.style.display = "none", 2000);
+						});
+					}
+				</script>
+
 				<section>
 					<h2>Or to check out my work in my social profiles (LinkedIn, itch.io and GitHub)</h2>
 					<ul class="icons">
