@@ -3462,3 +3462,35 @@ body.is-menu-visible #menu .close {
 	}
 
 }
+
+
+.tiles.featured {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.tiles.featured article {
+	width: 100%;
+}
+
+.featured-banner {
+	height: 350px;
+}
+
+.featured-banner .image {
+	height: 100%;
+}
+
+.featured-banner .image img {
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+}
+
+.tiles article.style-featured > .image:before {
+	background: rgba(13, 0, 88, 0.788); /* color base */
+}
+
+.featured-banner h2 {
+	font-size: 2.5em;
+}
